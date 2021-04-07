@@ -1,0 +1,134 @@
+body {
+    font-family: sans-serif;
+    max-width: 500px;
+    margin: 75px auto;
+}
+
+.counter {
+    display: grid;
+    grid-template-columns: 70% 26%;
+    margin-bottom: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    background: #497B9C;
+    color: white;
+    border-radius: 10px;
+}
+
+.tabla {
+    display: none;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    grid-template-columns: 35% 36% 25%;
+    margin-bottom: 1%;
+    margin-left: 6%;
+    margin-right: 6%;
+    background: #ff9e20b2;
+    color: rgb(0, 0, 0);
+    border-radius: 10px 10px 0 0;
+}
+
+.tablamod {
+    display: grid;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    grid-template-columns: 35% 13% 23% 25%;
+    margin-bottom: 1%;
+    margin-left: 6%;
+    margin-right: 6%;
+    background: #ff9e20b2;
+    color: rgb(0, 0, 0);
+    border-radius: 10px 10px 0 0;
+}
+
+.divisa {
+    display: grid;
+    grid-template-columns: 71% 25%;
+    margin-bottom: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    background: #fae101b2;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.divisamod {
+    display: grid;
+    grid-template-columns: 48% 23% 25%;
+    margin-bottom: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    background: #fae101b2;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.nombre {
+    padding-bottom: 1%;
+    font-size: 30px;
+    align-self: center;
+    text-align: center;
+}
+
+.title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 15px;
+    font-size: 25px;
+    align-self: center;
+    text-align: center;
+}
+
+.valor {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    padding: 15px;
+    font-size: 25px;
+    align-self: center;
+    text-align: center;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.igual {
+    display:inline-flex;
+    text-align: left;
+}
+
+.igualtext {
+    text-align: center;
+}
+
+.messagediv {
+    margin: 0 5% 0 5%;
+    text-align: center;
+}
+
+a.button6{
+    display:inline-block;
+    padding:0.7em 1.4em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.6em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    text-transform:uppercase;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color:#01b63d;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+}
+a.button6:active{
+    top:0.1em;
+}
+@media all{
+    a.button6{
+        display:block;
+        margin:2em 15%;
+    }
+}
